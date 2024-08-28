@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="heading">stopwatch</div>
+    <div class="container">
+        <div class="timer-display">
+            00 : 00 : 00 : 00
+        </div>
+        <ul class="laps">00 : 00 : 00 : 00</ul>
+        <div class="action">
+            <button id="startTimer" onclick="start()">START</button>
+            <button id="pauseTimer" onclick="pause()">Pause</button>
+            <button id="resetTimer" onclick="reset()">Reset</button>
+            <button id="restartTimer" onclick="restart()">Restart</button>
+            <button id="lapTimer" onclick="lap()">Lap</button>
+            <button id="resetLap" onclick="resetLap()">Reset Laps</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
